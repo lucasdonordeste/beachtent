@@ -1,11 +1,12 @@
-# Criando nossos Users --- OBS: Depois que adicionarmos o devise precisamos incluir o email e senha dos users
-User.create name: 'Lougans dos picolés', status: :active, kind: :salesman
-User.create name: 'Sartori "Olha a cocada" ', status: :active, kind: :manager
+# /db/seeds.rb
+
+User.create name: 'José', status: :active, kind: :salesman, email: 'salesman@teste.com', password: 123456
+User.create name: 'Manuel', status: :active, kind: :salesman, email: 'salesman2@teste.com', password: 123456
+User.create name: 'Marcos', status: :active, kind: :manager, email: 'manager@teste.com', password: 123456
 
 # Criando alguns produtos de exemplo
-Product.create name: 'Picolés', description:'Mais um picolé ...', status: :active
-Product.create name: 'Peixe Frito', description:'Um peixe frito para comer ...', status: :active
-Product.create name: 'Coco gelado', description:'Água de coco para beber ...', status: :active
+Product.create name: 'Smartphone', description:'Um smartphone novo ...', status: :active
+Product.create name: 'Tablet', description:'Um tablet novo ...', status: :active
 
 # Criando um desconto de exemplo
-Discount.create name: 'Desconto do calor', description: 'Aplique esse desconto para comprar água de coco', value: '10', kind: :porcent, status: :active
+Discount.create name: 'Desconto carnaval', description: 'Aplique esse desconto no carnaval', value: '10', kind: :porcent, status: :active
