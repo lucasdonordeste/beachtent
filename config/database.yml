@@ -15,10 +15,12 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: sample_postgres_development
+  database: beachtent_postgres_development
   pool: 5
-  username: sample_postgres
-  password:
+  username: lucasdonordeste
+  password: nordestedolucas
+
+
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -41,15 +43,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: sample_postgres_test
+  database: beachtent_postgres_test
   pool: 5
-  username: sample_postgres
-  password:
+  username: lucasdonordeste
+  password: nordestedolucas
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: sample_postgres_production
+  database: beachtent_postgres_production
   pool: 5
-  username: sample_postgres
-  password:
+  username: lucasdonordeste
+  password: nordestedolucas
