@@ -1,3 +1,27 @@
+GIT
+  remote: https://github.com/lucasdonordeste/rails_admin.git
+  revision: bd47828839770f821eeadf8e3c128c15505dca07
+  specs:
+    rails_admin (3.0.0.alpha)
+      activemodel-serializers-xml (>= 1.0)
+      builder (~> 3.1)
+      haml (>= 4.0, < 6)
+      jquery-rails (>= 3.0, < 5)
+      jquery-ui-rails (>= 6.0, < 7)
+      kaminari (>= 0.14, < 2.0)
+      nested_form (~> 0.3)
+      rack-pjax (>= 0.7)
+      rails (>= 6.0, < 8)
+      remotipart (~> 1.3)
+      sassc-rails (>= 1.3, < 3)
+
+GIT
+  remote: https://github.com/lucasdonordeste/rollincode_custom.git
+  revision: 6ce76a73d8ca3f23fedb43b6d7ce7580bfb5836d
+  specs:
+    rails_admin_rollincode (1.3)
+      rails (>= 4.0, < 7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -72,7 +96,7 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
-    cancancan (1.15.0)
+    cancancan (3.3.0)
     capybara (3.35.3)
       addressable
       mini_mime (>= 0.1.3)
@@ -186,20 +210,6 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.4.2)
       loofah (~> 2.3)
-    rails_admin (2.2.1)
-      activemodel-serializers-xml (>= 1.0)
-      builder (~> 3.1)
-      haml (>= 4.0, < 6)
-      jquery-rails (>= 3.0, < 5)
-      jquery-ui-rails (>= 5.0, < 7)
-      kaminari (>= 0.14, < 2.0)
-      nested_form (~> 0.3)
-      rack-pjax (>= 0.7)
-      rails (>= 5.0, < 7)
-      remotipart (~> 1.3)
-      sassc-rails (>= 1.3, < 3)
-    rails_admin_rollincode (1.3)
-      rails (>= 4.0, < 7)
     railties (6.1.4.1)
       actionpack (= 6.1.4.1)
       activesupport (= 6.1.4.1)
@@ -295,8 +305,8 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.4, >= 6.1.4.1)
-  rails_admin
-  rails_admin_rollincode (~> 1.0)
+  rails_admin!
+  rails_admin_rollincode!
   sass-rails (>= 6)
   selenium-webdriver
   spring

@@ -24,11 +24,14 @@ gem 'jbuilder', '~> 2.7'
 #
 #
 
-gem 'rails_admin'
+
 gem 'devise'
 gem 'cancancan'
 gem 'carrierwave'
-gem 'rails_admin_rollincode', '~> 1.0'
+
+gem 'rails_admin', :github => 'lucasdonordeste/rails_admin'
+
+gem 'rails_admin_rollincode', :github => 'lucasdonordeste/rollincode_custom'
 
 
 
@@ -52,6 +55,7 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
 end
 
 group :test do
