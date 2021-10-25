@@ -6,15 +6,16 @@ RailsAdmin.config do |config|
 
 
   config.navigation_static_links = {
-    'OneBitCode' => 'https://onebitcode.com',
-    'OneBit' => 'https://onebitcode.com',
-    'OneBiCode' => 'https://onebitcode.com',
-    'OnetCode' => 'https://onebitcode.com',
-    'OBitCode' => 'https://onebitcode.com'
+
+    'Github' => 'https://github.com/lucasdonordeste/beachtent',
+    'LinkedIn'  => 'https://www.linkedin.com/in/lucasdonordeste/',
+  
+
+    
 
   }
    
-  config.navigation_static_label = "Lins Úteis"
+  config.navigation_static_label = "Networks"
 
 
 
@@ -23,7 +24,7 @@ RailsAdmin.config do |config|
   end
 
   config.model Discount do
-    navigation_icon 'fa fa-money'
+    navigation_icon 'fa fa-asterisk'
 end
 
 config.model Comission do
@@ -31,11 +32,15 @@ config.model Comission do
 end
 
 config.model Product do
-  navigation_icon 'fa fa-money'
+  navigation_icon 'fa fa-cart-plus'
+end
+
+config.model User do
+  navigation_icon 'fa fa-group'
 end
 
 config.model Client do
-  navigation_icon 'fa fa-money'
+  navigation_icon 'fa fa-address-card-o'
 end
 
 

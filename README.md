@@ -56,6 +56,7 @@
 - [x] Utilizar o CanCanCan para autenticação
 - [x] Popular o sistema
 - [ ] Traduzir o sistema com o i18n
+- [ ] Fazero deploy
 - [ ] Melhorar a responsividade
 - [ ] Melhorar frontend
 - [ ] Imprimir relatórios
