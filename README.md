@@ -9,17 +9,41 @@
 
 <h2>Tecnologias e ferramentas utilizadas</h2>
 
-Ruby on Rails
-Sqlite3 (Mas você pode usar outro Database :))
-Gem: Rails Admin
-Gem: Rails Admin Rollincode
-Gem: Devise
-Gem: CanCanCan
-Gem: Carrierwave
-
+<li>Ruby on Rails<li>
+<li>Sqlite3<li>
+<li>Gem: Rails Admin customizada <a>https://github.com/lucasdonordeste/rails_admin.git</a><li>
+<li>Gem: Rails Admin Rollincode customizada<a>https://github.com/lucasdonordeste/rollincode_custom.git</a><li>
+<li>Gem: Devise<li>
+<li>Gem: CanCanCan<li>
+<li>Gem: Carrierwave<li>
 
 
 
 <h2>Instalando o projeto</h2>
-<li>Faça o clone do repositório na sua máquina</li>
 
+<li>Faça o clone do repositório na sua máquina</li>
+<li>Rode o rake db:create RAILS_ENV=development para criar o banco de dados<li>
+<li>Rode o rake db:migrate RAILS_ENV=development para atualizar as migrations<li>
+<li>Para popular rode o rake db:seed<li>
+<li>Rode o rails s para iniciar a aplicação<li>
+
+
+
+<h2>Acessos</h2>
+
+<li>Use proprietario@teste.com e senha 123456 para entrar como proprietario da barraca de praia<li>
+<li>Use garcom@teste.com e senha 123456 para entrar como garcom da barraca de praia<li>
+<li>Use garcom2@teste.com e senha 123456 para entrar como garcom 2 da barraca de praia<li>
+
+## Desafios do projeto
+
+- [x] Criar a base do projeto de sistema administrativo de barraca de praia
+- [x] Personalizar a gem rails admin
+- [x] Personalizar a gem rails admin Rollincode
+- [x] Utilizar o CanCanCan para autenticação
+- [x] Popular o sistema
+- [ ] Traduzir o sistema com o i18n
+- [ ] Melhorar frontend
+- [ ] Imprimir relatórios
+- [ ] Controle de tempo com relógio no sistema
+- [ ] Projeto finalizado
