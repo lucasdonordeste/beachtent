@@ -2,6 +2,70 @@ RailsAdmin.config do |config|
 
   # /config/initializers/rails_admin.rb
 
+  config.main_app_name = ["Beachtent", ""]
+
+
+  config.navigation_static_links = {
+    'OneBitCode' => 'https://onebitcode.com',
+    'OneBit' => 'https://onebitcode.com',
+    'OneBiCode' => 'https://onebitcode.com',
+    'OnetCode' => 'https://onebitcode.com',
+    'OBitCode' => 'https://onebitcode.com'
+
+  }
+   
+  config.navigation_static_label = "Lins Úteis"
+
+
+
+  config.model Sale do
+      navigation_icon 'fa fa-money'
+  end
+
+  config.model Discount do
+    navigation_icon 'fa fa-money'
+end
+
+config.model Comission do
+  navigation_icon 'fa fa-money'
+end
+
+config.model Product do
+  navigation_icon 'fa fa-money'
+end
+
+config.model Client do
+  navigation_icon 'fa fa-money'
+end
+
+
+
+  config.model Discount do
+    parent Product
+  end
+   
+  config.model Sale do
+    parent User
+    weight -2
+  end
+   
+  config.model Comission do
+    parent User
+    weight -1
+  end
+   
+  config.model Client do
+    parent User
+  end
+   
+  config.model ProductQuantity do
+    visible false
+  end
+   
+  config.model Address do
+    visible false
+  end
+
 
   ### Popular gems integration
 
