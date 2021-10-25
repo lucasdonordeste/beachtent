@@ -56,12 +56,21 @@
 - [x] Utilizar o CanCanCan para autenticação
 - [x] Popular o sistema
 - [ ] Traduzir o sistema com o i18n
-- [ ] Fazero deploy
+- [ ] Fazer o deploy
 - [ ] Melhorar a responsividade
 - [ ] Melhorar frontend
 - [ ] Imprimir relatórios
 - [ ] Controle de tempo com relógio no sistema
-- [ ] Projeto finalizado
+- [ ] Projeto finalizado 
+
+
+
+
+
+
+
+
+@lucasdonordeste
 
 
 
