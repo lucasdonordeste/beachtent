@@ -12,9 +12,6 @@
 
 ActiveRecord::Schema.define(version: 2021_10_21_054653) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "addresses", force: :cascade do |t|
     t.string "country"
     t.string "city"
@@ -22,7 +19,7 @@ ActiveRecord::Schema.define(version: 2021_10_21_054653) do
     t.string "neighborhood"
     t.string "street"
     t.string "number"
-    t.bigint "client_id", null: false
+    t.integer "client_id", null: false
     t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -35,7 +32,7 @@ ActiveRecord::Schema.define(version: 2021_10_21_054653) do
     t.string "document"
     t.string "email"
     t.string "phone"
-    t.bigint "user_id", null: false
+    t.integer "user_id", null: false
     t.text "notes"
     t.integer "status"
     t.datetime "created_at", precision: 6, null: false
@@ -44,9 +41,9 @@ ActiveRecord::Schema.define(version: 2021_10_21_054653) do
   end
 
   create_table "comissions", force: :cascade do |t|
-    t.bigint "sale_id", null: false
+    t.integer "sale_id", null: false
     t.decimal "value"
-    t.bigint "user_id", null: false
+    t.integer "user_id", null: false
     t.integer "status"
     t.text "note"
     t.datetime "created_at", precision: 6, null: false
@@ -66,9 +63,9 @@ ActiveRecord::Schema.define(version: 2021_10_21_054653) do
   end
 
   create_table "product_quantities", force: :cascade do |t|
-    t.bigint "product_id", null: false
+    t.integer "product_id", null: false
     t.integer "quantity"
-    t.bigint "user_id", null: false
+    t.integer "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "sale_id"
@@ -87,10 +84,10 @@ ActiveRecord::Schema.define(version: 2021_10_21_054653) do
   end
 
   create_table "sales", force: :cascade do |t|
-    t.bigint "client_id", null: false
+    t.integer "client_id", null: false
     t.date "sale_date"
-    t.bigint "user_id", null: false
-    t.bigint "discount_id", null: false
+    t.integer "user_id", null: false
+    t.integer "discount_id", null: false
     t.text "notes"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
