@@ -15,11 +15,12 @@
 <li>Postgresql
 <li>Docker
 <li>docker-compose
-<li>Gem: Rails Admin customizada <a>https://github.com/lucasdonordeste/rails_admin.git</a>
-<li>Gem: Rails Admin Rollincode customizada<a>https://github.com/lucasdonordeste/rollincode_custom.git</a>
+<li>Gem: Rails Admin customizada <a href="https://github.com/lucasdonordeste/rails_admin.git" >
+<li>Gem: Rails Admin Rollincode customizada <a href="https://github.com/lucasdonordeste/rollincode_custom.git">
 <li>Gem: Devise
 <li>Gem: CanCanCan
 <li>Gem: Carrierwave
+
 
 
 # Pré-requisitos:
@@ -55,8 +56,8 @@
 - [x] Personalizar a gem rails admin Rollincode
 - [x] Utilizar o CanCanCan para autenticação
 - [x] Popular o sistema
+- [x] Fazer o deploy
 - [ ] Traduzir o sistema com o i18n
-- [ ] Fazer o deploy
 - [ ] Melhorar a responsividade
 - [ ] Melhorar frontend
 - [ ] Imprimir relatórios
@@ -66,7 +67,11 @@
 
 
 
+# Se você quiser ajudar, você pode ajudar!
 
+Durante a criação do projeto, aconteceram evoluções que me fizeram pensar em outros desafios.
+A cada novo commit eu superava um desafio e a cada novo desafio eu criava um novo commit.
+Por isso, se você quiser ajudar a resolver um desafio, você pode fazer um pull request no repositório do projeto.
 
 
 
