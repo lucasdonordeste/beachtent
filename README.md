@@ -15,8 +15,8 @@
 <li>Postgresql
 <li>Docker
 <li>docker-compose
-<li>Gem: Rails Admin customizada <a href="https://github.com/lucasdonordeste/rails_admin.git" >
-<li>Gem: Rails Admin Rollincode customizada <a href="https://github.com/lucasdonordeste/rollincode_custom.git">
+<li>Gem: Rails Admin customizada <a href="https://github.com/lucasdonordeste/rails_admin.git" ></a>
+<li>Gem: Rails Admin Rollincode customizada <a href="https://github.com/lucasdonordeste/rollincode_custom.git"></a>
 <li>Gem: Devise
 <li>Gem: CanCanCan
 <li>Gem: Carrierwave
