@@ -65,8 +65,12 @@
 - [x] Fazer o deploy
 - [ ] Traduzir o sistema com o i18n
 - [ ] Melhorar a responsividade
+- [ ] Melhorar a segurança
+- [ ] Melhorar a performance
+- [ ] Criar testes unitários 
 - [ ] Melhorar frontend
 - [ ] Imprimir relatórios
+- [ ] Criar um sistema de pagamento
 - [ ] Controle de tempo com relógio no sistema
 - [ ] Projeto finalizado 
 
