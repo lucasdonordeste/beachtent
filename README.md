@@ -75,8 +75,8 @@ Por isso, se você quiser ajudar a resolver um desafio, você pode fazer um pull
 
 
 
-@lucasdonordeste
 
 
+<a style="align-self: center;" href="https://www.linkedin.com/in/lucasdonordeste/">@lucasdonordeste</a>
 
 
