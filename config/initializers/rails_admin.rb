@@ -182,6 +182,19 @@ end
   config.model Address do
     visible false
   end
+  
+  config.model Discount do
+    parent Client
+  end
+
+  config.model Comission do
+    parent Client
+  end
+
+  config.model Product do
+    parent Client
+  end
+
 
 
   config.model ProductQuantity do
