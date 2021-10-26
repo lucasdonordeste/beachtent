@@ -6,7 +6,7 @@
 
 # Link do site
 
-<a href="https://beachtent.com.br/">BeachTent</a>
+<a href="https://beachtent.herokuapp.com/">BeachTent</a>
 
 # Sobre o projeto
 
