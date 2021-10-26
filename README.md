@@ -2,6 +2,12 @@
 
 ![BeachTent (500 x 250 px)](https://user-images.githubusercontent.com/62475727/138617143-eab8a6ba-7b53-4843-97fe-0b4ba2a48726.png)
 
+
+
+# Link do site
+
+<a href="https://beachtent.com.br/">BeachTent</a>
+
 # Sobre o projeto
 
 <h2>O projeto beachtent é um sistema administrativo para barracas de praia.</h2>
