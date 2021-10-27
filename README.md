@@ -64,6 +64,7 @@
 - [x] Utilizar o CanCanCan para autenticação
 - [x] Popular o sistema
 - [x] Fazer o deploy
+- [ ] Criar o ambiente de alpha
 - [ ] Traduzir o sistema com o i18n
 - [ ] Melhorar a responsividade
 - [ ] Melhorar a segurança
