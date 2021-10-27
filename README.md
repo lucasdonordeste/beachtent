@@ -40,12 +40,13 @@
 # Instalando o projeto
 
 <li>Faça o clone do repositório na sua máquina
-<li>Rode o docker-compose run --service-ports rails bash
-<li>Rode o bundle install
-<li>Rode o rake db:create RAILS_ENV=development para criar o banco de dados
-<li>Rode o rake db:migrate RAILS_ENV=development para atualizar as migrations
-<li>Para popular rode o rake db:seed
-<li>Rode o rails s -b 0.0.0.0 para iniciar a aplicação
+<li>Rode o comando: 'docker image build -t beachtent .'
+<li>Rode o 'docker-compose run --service-ports rails bash'
+<li>Rode o 'bundle install'
+<li>Rode o 'rake db:create RAILS_ENV=development' para criar o banco de dados
+<li>Rode o 'rake db:migrate RAILS_ENV=development' para atualizar as migrations
+<li>Para popular rode o 'rake db:seed'
+<li>Rode o 'rails s -b 0.0.0.0' para iniciar a aplicação
 
 
 # Acessos
